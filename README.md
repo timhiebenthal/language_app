@@ -1,28 +1,20 @@
-# English → German for Expats
+# German for Real Life
 
-A simple, interactive language-learning app for English speakers learning German. It is aimed at learners from A1 to B1, with quizzes and practical memory aids (*Eselsbrücken*) for situations expats actually encounter.
+A simple, interactive English-to-German learning app for English speakers living in Germany. The starter course has six practical A1–A2 lessons designed for about an hour of practice:
 
-## Learning approach
+1. First day at work
+2. Getting around town
+3. Appointments and opening hours
+4. Shopping and paying
+5. At home: repairs and deliveries
+6. Feeling unwell and calling work
 
-- Build useful German for everyday life, from settling in to handling common conversations.
-- Use short quizzes to practise and check understanding.
-- Explain practical memory aids in context, so learners can remember what to say and when to say it.
-- Keep the experience approachable for learners who are still building confidence.
+Each lesson includes a short situation guide, useful phrases, a contextual memory aid where it helps, and an eight-question quiz with explanatory feedback. Lesson completion and scores are saved in the learner's browser; there are no accounts or cross-device sync.
 
-Avoid disconnected phrase lists and arbitrary example sentences. Teach language through realistic situations and explain why a phrase or pattern is useful.
+## Run locally
 
-## Sharing the app
+Open `index.html` in a modern browser. The app uses plain HTML, CSS, and JavaScript with no build step or backend.
 
-The app is intended to use plain HTML, CSS, and JavaScript so it stays lightweight and easy to share. The sharing target is GitHub Pages, which can serve the app as a normal website link.
+## Publish
 
-Google Drive can store and share the HTML file, but its link is not the target for running the interactive app. Learners can use the site without accounts. Quiz activity is temporary during a session; lesson completion and scores should persist in that learner's browser, without cross-device syncing.
-
-The published site files live in `site/`. GitHub Actions deploys that directory to GitHub Pages whenever changes reach `main`, including pull request merges. To enable publishing, open the repository's **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. The workflow can also be run manually from the Actions tab.
-
-## Running locally
-
-The app itself has not been implemented yet. The current page is a deployment placeholder. Local run instructions will be added with the first runnable version.
-
-## Current status
-
-Project scope and learning approach are defined. The app itself has not been implemented yet.
+GitHub Actions deploys the `site/` directory to GitHub Pages when changes reach `main`. To enable publishing, open the repository's **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. `site/` contains the same runnable app as the repository root.
