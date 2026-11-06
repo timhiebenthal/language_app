@@ -6,7 +6,9 @@
 - Focus on quizzes and practical *Eselsbrücken* tied to situations expats encounter.
 - Prefer useful, contextual language over arbitrary phrase lists or disconnected example sentences.
 - Keep the app lightweight and easy to share; plain HTML, CSS, and JavaScript are the intended starting point.
-- Treat Google Drive hosting as a goal to verify, not an established capability. Shared HTML must actually run for friends without a development setup.
+- Target GitHub Pages for hosting and link-based sharing. Google Drive is not the app host.
+- Do not require learner accounts or a backend. Persist lesson completion and scores in the learner's browser; progress does not sync across devices.
+- Quiz answers and score state may be temporary while a quiz is in progress.
 
 ## Learning content
 

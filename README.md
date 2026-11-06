@@ -11,11 +11,15 @@ A simple, interactive language-learning app for English speakers learning German
 
 Avoid disconnected phrase lists and arbitrary example sentences. Teach language through realistic situations and explain why a phrase or pattern is useful.
 
-## Running the app
+## Sharing the app
 
-The app is intended to use plain HTML, CSS, and JavaScript so it stays lightweight and easy to share. Instructions will be added once the first runnable version exists.
+The app is intended to use plain HTML, CSS, and JavaScript so it stays lightweight and easy to share. The sharing target is GitHub Pages, which can serve the app as a normal website link.
 
-Google Drive is a hosting goal to investigate. Opening a shared HTML file directly from Drive may not run it as an interactive website; verify the hosting behavior before recommending it. If Drive cannot serve the app, use a static web host that can.
+Google Drive can store and share the HTML file, but its link is not the target for running the interactive app. Learners can use the site without accounts. Quiz activity is temporary during a session; lesson completion and scores should persist in that learner's browser, without cross-device syncing.
+
+## Running locally
+
+The app itself has not been implemented yet. Local run instructions will be added with the first runnable version.
 
 ## Current status
 
