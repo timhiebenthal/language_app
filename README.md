@@ -17,9 +17,11 @@ The app is intended to use plain HTML, CSS, and JavaScript so it stays lightweig
 
 Google Drive can store and share the HTML file, but its link is not the target for running the interactive app. Learners can use the site without accounts. Quiz activity is temporary during a session; lesson completion and scores should persist in that learner's browser, without cross-device syncing.
 
+The published site files live in `site/`. GitHub Actions deploys that directory to GitHub Pages whenever changes reach `main`, including pull request merges. To enable publishing, open the repository's **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. The workflow can also be run manually from the Actions tab.
+
 ## Running locally
 
-The app itself has not been implemented yet. Local run instructions will be added with the first runnable version.
+The app itself has not been implemented yet. The current page is a deployment placeholder. Local run instructions will be added with the first runnable version.
 
 ## Current status
 
