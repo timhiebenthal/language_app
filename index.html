@@ -2,18 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f1e8"><title>German for Real Life · A1</title>
+  <meta name="theme-color" content="#f5f1e8"><title>German for Real Life · A1–A2</title>
   <link rel="stylesheet" href="styles.css">
-  <script defer src="content/a1-workplace-introduction.js"></script><script defer src="app.js"></script>
+  <script defer src="content/course.js"></script><script defer src="app.js"></script>
 </head>
 <body>
-  <header><a class="brand" href="./">Guten Tag<span>GERMAN FOR REAL LIFE</span></a><span class="level">A1 · STARTER</span></header>
+  <header><a class="brand" href="./">Guten Tag<span>GERMAN FOR REAL LIFE</span></a><span class="level">A1–A2 · STARTER COURSE</span></header>
   <main>
-    <p class="eyebrow">AT WORK · LESSON 01</p><h1>First day,<br><em>new colleagues.</em></h1>
-    <p class="intro">A few natural ways to introduce yourself at work - and keep the conversation going.</p>
-    <section class="phrase"><p class="eyebrow">A USEFUL PHRASE</p><p class="german">Ich arbeite im Marketing.</p><p class="translation">I work in marketing.</p><p class="tip">${note}</p></section>
-    <section class="quiz"><div class="section-head"><span class="eyebrow">YOUR TURN</span><span class="duration">3 QUESTIONS · 2 MIN</span></div><div id="lesson" aria-live="polite"></div></section>
+    <p class="eyebrow">A PRACTICAL GERMAN COURSE</p><h1>Everyday life,<br><em>in German.</em></h1>
+    <p class="intro">Six short lessons for the situations you actually meet after moving to Germany. Set aside about an hour for the full path.</p>
+    <nav class="lesson-list" aria-label="Course lessons" id="lesson-list"></nav>
+    <div id="lesson-view" aria-live="polite"></div>
     <p class="privacy">Your progress stays in this browser. No account needed.</p>
   </main>
-  <script>document.addEventListener('DOMContentLoaded',()=>{document.querySelector('.tip').textContent=window.LESSON.note});</script>
 </body></html>
